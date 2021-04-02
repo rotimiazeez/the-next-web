@@ -1,0 +1,27 @@
+.position-relative-md {
+  position: relative;
+}
+
+.position-absolute-md {
+  position: absolute;
+}
+
+.d-flex-md {
+  display: flex;
+}
+
+.d-block-md {
+  display: block;
+}
+
+.d-none-md {
+  display: none;
+}
+
+.flex-direction-column-md {
+  flex-direction: column;
+}
+
+.flex-direction-row-md {
+  flex-direction: row;
+}
