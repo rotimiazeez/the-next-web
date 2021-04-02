@@ -1,11 +1,289 @@
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
-
-body {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  color: wheat;
-  font-family: Metal Mania, "Times New Roman", Times, serif;
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.ml-six {
+  margin-left: 6px;
+}
+
+.ml-four {
+  margin-left: 4px;
+}
+
+.hover-opacity:hover {
+  opacity: 0.5;
+}
+
+.hover-gif:hover {
+  background-image: url(../images/home-1.gif);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-black:hover {
+  box-shadow: inset 0 -1px 0 rgb(255 68 34 / 25%);
+  color: #000;
+}
+
+.hover-red:hover {
+  box-shadow: inset 0 -1px 0 rgb(255 68 34 / 25%);
+  color: #f42;
+}
+
+/* header */
+.nav {
+  background: #fff;
+  box-shadow: 0 0 32px rgb(0 0 0 / 15%);
+  height: 48px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-bar {
+  justify-content: space-between;
+}
+
+.tnw-logo {
+  background-color: #000;
+  display: block;
+  height: 48px;
+  padding: 16px 20px;
+  width: 106px;
+  will-change: height;
+}
+
+.search-icon-link {
+  height: 48px;
+  opacity: 0.25;
+  padding: 16px;
+  width: 48px;
+  will-change: opacity;
+}
+
+.nav-hamburger {
+  border-left: 1px solid #eee;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+
+.banner-text {
+  box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
+  background: #fd3;
+  color: #000;
+  font-size: 13px;
+  line-height: 60px;
   text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 6px;
+}
+
+.main {
+  margin-top: 96px;
+}
+
+.highlight-article {
+  background-image: url(../images/opal-article.jpg);
+}
+
+.top-story {
+  margin: 4px;
+}
+
+.header-wrapper {
+  background-color: #000;
+  opacity: 0.5;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding: 12px;
+  height: 120px;
+  justify-content: flex-end;
+}
+
+.cookie-article-div {
+  background-image: url(../images/cookie-killer.webp);
+}
+
+.mac-article {
+  background-image: url(../images/mac-app.webp);
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.article-text {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.header-ul {
+  font-size: 12px;
+}
+
+.header-link {
+  color: #f42;
+}
+
+.latest-new-section {
+  padding: 0 20px;
+}
+
+.latest-news-div {
+  margin-left: 12px;
+}
+
+.latest-news-article {
+  padding: 8px;
+}
+
+.latest-news-cover-image {
+  width: 75px;
+  min-width: 75px;
+  height: 75px;
+  background-color: #000;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hydrogen-drive-link {
+  background-image: url(../images/california-car-ev-hydrogen-future.webp);
+}
+
+.article-header {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.article-details {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sitting-meme-link {
+  background-image: url(../images/header-image-bernie-sitting-meme-analysis.webp);
+}
+
+.uber-link {
+  background-image: url(../images/uber.jpg);
+}
+
+.zoom-link {
+  background-image: url(../images/zoom-fundraising.webp);
+}
+
+.electric-motor-link {
+  background-image: url(../images/moon-hand.webp);
+}
+
+.exoplanet-link {
+  background-image: url(../images/cotton-candy.jpg);
+}
+
+.government-vehicle-link {
+  background-image: url(../images/biden-electric-cars-future-us-state-vehicles-car.jpg);
+}
+
+.signal-link {
+  background-image: url(../images/Signal-hed.jpg);
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  position: relative;
+  will-change: transform;
+  z-index: 4;
+  outline: none;
+}
+
+.legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+
+.legal-wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-icon-wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+  height: 16px;
+  width: 16px;
+  display: inline-table;
+}
+
+.footer-social-icon {
+  margin-bottom: 1.5em;
+  background: #333;
+  border-radius: 50%;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.tnw-legal-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
 }
