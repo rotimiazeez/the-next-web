@@ -1,92 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: helvetica, arial, sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-button {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
-}
-
-.position-relative {
-  position: relative;
-}
-
-.position-absolute {
-  position: absolute;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.d-block {
-  display: block;
-}
-
-.d-none {
-  display: none;
-}
-
-.flex-direction-column {
-  flex-direction: column;
-}
-
-.ml-six {
-  margin-left: 6px;
-}
-
-.ml-four {
-  margin-left: 4px;
-}
-
-.ml-eight {
-  margin-left: 8px;
-}
-
-.hover-opacity:hover {
-  opacity: 0.5;
-}
-
-.hover-gif:hover {
-  background-image: url(../images/home-1.gif);
-  background-position: 50%;
-  background-size: cover;
-}
-
-.hover-white:hover {
-  color: #fff;
-}
-
-.hover-black:hover {
-  color: #000;
-}
-
-.hover-red:hover {
-  box-shadow: inset 0 -1px 0 rgb(255 68 34 / 25%);
-  color: #f42;
-}
-
-.hover-transparent:hover {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px #333;
-}
-
 /* header */
 .nav {
   background: #fff;
@@ -145,7 +56,7 @@ a {
 }
 
 .highlight-article {
-  background-image: url(../images/opal-article.jpg);
+  background-image: url(../../images/opal-article.jpg);
 }
 
 .top-story {
@@ -162,11 +73,11 @@ a {
 }
 
 .cookie-article-div {
-  background-image: url(../images/cookie-killer.webp);
+  background-image: url(../../images/cookie-killer.webp);
 }
 
 .mac-article {
-  background-image: url(../images/mac-app.webp);
+  background-image: url(../../images/mac-app.webp);
 }
 
 .cover-image {
@@ -216,7 +127,7 @@ a {
 }
 
 .hydrogen-drive-link {
-  background-image: url(../images/california-car-ev-hydrogen-future.webp);
+  background-image: url(../../images/california-car-ev-hydrogen-future.webp);
 }
 
 .article-header {
@@ -232,31 +143,31 @@ a {
 }
 
 .sitting-meme-link {
-  background-image: url(../images/header-image-bernie-sitting-meme-analysis.webp);
+  background-image: url(../../images/header-image-bernie-sitting-meme-analysis.webp);
 }
 
 .uber-link {
-  background-image: url(../images/uber.jpg);
+  background-image: url(../../images/uber.jpg);
 }
 
 .zoom-link {
-  background-image: url(../images/zoom-fundraising.webp);
+  background-image: url(../../images/zoom-fundraising.webp);
 }
 
 .electric-motor-link {
-  background-image: url(../images/moon-hand.webp);
+  background-image: url(../../images/moon-hand.webp);
 }
 
 .exoplanet-link {
-  background-image: url(../images/cotton-candy.jpg);
+  background-image: url(../../images/cotton-candy.jpg);
 }
 
 .government-vehicle-link {
-  background-image: url(../images/biden-electric-cars-future-us-state-vehicles-car.jpg);
+  background-image: url(../../images/biden-electric-cars-future-us-state-vehicles-car.jpg);
 }
 
 .signal-link {
-  background-image: url(../images/Signal-hed.jpg);
+  background-image: url(../../images/Signal-hed.jpg);
 }
 
 .latest-funding-li {
