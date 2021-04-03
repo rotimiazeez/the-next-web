@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Shentox;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url("../fonts/shentox-medium.eot") format("embedded-opentype"),
+    url("../fonts/shentox-medium.woff2") format("woff2"),
+    url("../fonts/shentox-medium.woff") format("woff"),
+    url("../fonts/shentox-medium.ttf") format("truetype");
+}
+
+.shentox-font {
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+}
