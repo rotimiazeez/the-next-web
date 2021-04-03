@@ -1,0 +1,31 @@
+.d-none-lg {
+  display: none;
+}
+
+.d-flex-lg {
+  display: flex;
+}
+
+.d-block-lg {
+  display: block;
+}
+
+.flex-direction-row-lg {
+  flex-direction: row;
+}
+
+.jc-sb-lg {
+  justify-content: space-between;
+}
+
+.ta-l-lg {
+  text-align: left;
+}
+
+.w-5-lg {
+  width: 41.666666%;
+}
+
+.w-3-lg {
+  width: 25%;
+}

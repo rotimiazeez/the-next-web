@@ -12,18 +12,18 @@
 <body>
   <nav class="nav">
     <div class="nav-bar d-flex">
-      <div class="tnw-logo  hover-gif">
+      <div class="tnw-logo hover-gif d-none-lg">
         <a href="#" class="tnw-link">
           <img class="tnw-image " alt="The Next Web" src="./images/tnw.svg" />
         </a>
       </div>
       <ul class="tnw-header d-none d-flex-md flex-direction-column-md">
         <li>
-          <ul class="tnw-nav d-flex">
-            <li>
+          <ul class="tnw-nav d-flex jc-sb">
+            <li class="w-8-md w-5-lg">
               <ul class="tnw-nav-ul d-flex">
                 <li>
-                  <a href="#"  class="hover-white active-color">News</a>
+                  <a href="#" class="hover-white active-color">News</a>
                 </li>
                 <li>
                   <a href="#" class="medium-screen-navigation-link  hover-white">Events ▾</a>
@@ -34,20 +34,20 @@
                 </li>
 
                 <li>
-                  <a href="#"  class="hover-white">AMAs</a>
+                  <a href="#" class="hover-white">AMAs</a>
                 </li>
 
                 <li>
-                  <a href="#"  class="hover-white">Spaces</a>
+                  <a href="#" class="hover-white">Spaces</a>
                 </li>
 
                 <li>
-                  <a href="#"  class="hover-white">Terms & Conditions</a>
+                  <a href="#" class="hover-white">Terms & Conditions</a>
                 </li>
               </ul>
             </li>
-            <li class="d-none-md">
-              <ul class="d-flex">
+            <li class="d-none d-flex-lg w-3-lg">
+              <ul class="d-flex tnw-nav-ul">
                 <li>
                   <a href="#">About</a>
                 </li>
@@ -97,7 +97,7 @@
       </ul>
     </div>
     <a href="#" class="banner">
-      <p class="banner-text">
+      <p class="banner-text ta-l-lg">
         Calling young digital talent in the Netherlands – Be recognized in the T500 →
       </p>
     </a>
@@ -105,10 +105,13 @@
   <main class="main">
     <div class="main-wrapper  d-flex  flex-direction-column flex-direction-row-md">
       <article class="top-story w-8-md">
-        <div class="highlight-article cover-image h-12-md">
+        <div class="highlight-article cover-image h-12-md position-relative">
+          <div class="cover-gradient d-none d-block-lg position-absolute"></div>
+          <div class="cover-logo d-none d-block-lg position-absolute"></div>
+          <div class="cover-date d-none d-block-lg position-absolute">Tuesday — January 26, 2021</div>
           <header class="header-wrapper d-flex flex-direction-column h-12-md">
             <a href="#" class="header-wrapper-link d-block">
-              <h2 class="article-text">
+              <h2 class="article-text header-big">
                 Opal cuts off your apps’ internet access to help you stop doomscrolling
               </h2>
               <ul class=" header-ul d-flex">
@@ -123,43 +126,43 @@
         </div>
       </article>
       <div class="d-flex flex-direction-column w-4-md">
-      <article class="top-story">
-        <div class="cookie-article-div cover-image">
-          <header class="header-wrapper d-flex flex-direction-column">
-            <a href="#" class="header-wrapper-link d-block">
-              <h2 class="article-text">
-                Google unveils privacy-friendly AI cookie killer</h2>
-              <ul class="header-ul d-flex">
-                <li class="header-list-item"><span>by</span> <span class="hover-white">Thomas Macaulay</span> </li>
-                <li class="header-list-item d-flex ml-six"><i class="icon icon--clock--light"></i>&nbsp;<span>2 hour
-                    ago</span></li>
-                <li class="header-list-item number d-flex ml-six d-none"><i
-                    class="icon icon--share--light"></i>&nbsp;<span>4</span></li>
-              </ul>
-            </a>
-          </header>
-        </div>
-      </article>
-      <article class="top-story">
-        <div class="mac-article cover-image">
-          <header class="header-wrapper d-flex flex-direction-column">
-            <a href="#" class="header-wrapper-link d-block">
-              <h2 class="article-text">
-                This Mac app automatically detects your duplicate files
-              </h2>
+        <article class="top-story h-6-md">
+          <div class="cookie-article-div cover-image h-12-md">
+            <header class="header-wrapper d-flex flex-direction-column h-12-md">
+              <a href="#" class="header-wrapper-link d-block">
+                <h2 class="article-text header-small">
+                  Google unveils privacy-friendly AI cookie killer</h2>
+                <ul class="header-ul d-flex">
+                  <li class="header-list-item"><span>by</span> <span class="hover-white">Thomas Macaulay</span> </li>
+                  <li class="header-list-item d-flex ml-six"><i class="icon icon--clock--light"></i>&nbsp;<span>2 hour
+                      ago</span></li>
+                  <li class="header-list-item number d-flex ml-six d-none"><i
+                      class="icon icon--share--light"></i>&nbsp;<span>4</span></li>
+                </ul>
+              </a>
+            </header>
+          </div>
+        </article>
+        <article class="top-story h-6-md">
+          <div class="mac-article cover-image h-12-md">
+            <header class="header-wrapper d-flex flex-direction-column h-12-md">
+              <a href="#" class="header-wrapper-link d-block">
+                <h2 class="article-text header-small">
+                  This Mac app automatically detects your duplicate files
+                </h2>
 
-              <ul class="d-flex header-ul">
-                <li class="header-list-item"><span>by</span> <span class="hover-white">Ivan Mehta</span> </li>
-                <li class="header-list-item d-flex ml-six"><i class="icon icon--clock--light"></i>&nbsp;<span>1 hour
-                    ago</span></li>
-                <li class="header-list-item number d-flex ml-six d-none"><i
-                    class="icon icon--share--light"></i>&nbsp;<span>5</span></li>
-              </ul>
-            </a>
-          </header>
-        </div>
-      </article>
-    </div>
+                <ul class="d-flex header-ul">
+                  <li class="header-list-item"><span>by</span> <span class="hover-white">Ivan Mehta</span> </li>
+                  <li class="header-list-item d-flex ml-six"><i class="icon icon--clock--light"></i>&nbsp;<span>1 hour
+                      ago</span></li>
+                  <li class="header-list-item number d-flex ml-six d-none"><i
+                      class="icon icon--share--light"></i>&nbsp;<span>5</span></li>
+                </ul>
+              </a>
+            </header>
+          </div>
+        </article>
+      </div>
     </div>
 
     <section class="latest-new-section d-flex flex-direction-column">
@@ -169,7 +172,7 @@
         </a>
       </h2>
       <ul class="latest-news-element-wrapper flex-direction-column d-flex flex-direction-row-md flex-wrap">
-        <li class="latest-news-list-item w-4-md">
+        <li class="latest-news-list-item w-4-md w-3-lg">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="hydrogen-drive-link latest-news-cover-image d-block w-12-md"> </a>
@@ -188,7 +191,7 @@
           </article>
         </li>
 
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md d-flex w-3-lg">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="sitting-meme-link latest-news-cover-image d-block w-12-md"> </a>
@@ -206,7 +209,7 @@
             </div>
           </article>
         </li>
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md d-flex w-3-lg">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="uber-link latest-news-cover-image d-block w-12-md"> </a>
@@ -224,7 +227,7 @@
             </div>
           </article>
         </li>
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md d-flex w-3-lg">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="zoom-link latest-news-cover-image d-block w-12-md"> </a>
@@ -243,7 +246,7 @@
           </article>
         </li>
 
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md d-flex w-3-lg">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="electric-motor-link latest-news-cover-image d-block w-12-md"> </a>
@@ -262,7 +265,7 @@
           </article>
         </li>
 
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md w-3-lg d-flex">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="exoplanet-link latest-news-cover-image d-block w-12-md"> </a>
@@ -281,7 +284,7 @@
           </article>
         </li>
 
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md w-3-lg d-flex">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="government-vehicle-link latest-news-cover-image d-block w-12-md"> </a>
@@ -299,7 +302,7 @@
             </div>
           </article>
         </li>
-        <li class="latest-news-list-item w-4-md d-flex">
+        <li class="latest-news-list-item w-4-md w-3-lg d-flex">
 
           <article class="latest-news-article flex-direction-column-md d-flex">
             <a href="#" class="signal-link latest-news-cover-image d-block w-12-md"> </a>
@@ -321,7 +324,7 @@
     </section>
 
     <section class="latest-funding-section">
-      <header class="d-flex latest-funding-header flex-direction-column">
+      <header class="d-flex latest-funding-header flex-direction-column flex-direction-row-lg jc-sb-lg">
         <h2>
           <a href="#" class="header-link hover-black">
             Latest funding rounds on Index.co >
@@ -329,7 +332,8 @@
         </h2>
         <ul class="latest-funding-div d-flex flex-direction-column flex-direction-row-md">
           <li class="latest-funding-li"><a href="#" class="latest-funding-link hover-black"> See more</a></li>
-          <li class="latest-funding-li"><a href="#" class="latest-funding-link hover-black latest-funding-link-middle">Get updates by email</a>
+          <li class="latest-funding-li"><a href="#"
+              class="latest-funding-link hover-black latest-funding-link-middle">Get updates by email</a>
           </li>
           <li class="latest-funding-li">
             <a href="#" class="latest-funding-link hover-black">Add info</a>
@@ -339,7 +343,7 @@
 
       <div class="investment-wrapper-div d-flex flex-direction-column flex-direction-row-md flex-wrap">
 
-        <article class="investment-story-first-div w-4-md pad-10">
+        <article class="investment-story-first-div w-4-md w-3-lg pad-10">
 
           <div class="investment-story-second-div">
             <a href="#" class="investment-link d-block position-relative">
@@ -367,7 +371,7 @@
 
           </div>
         </article>
-        <article class="investment-story-first-div w-4-md pad-10">
+        <article class="investment-story-first-div w-4-md w-3-lg pad-10">
 
           <div class="investment-story-second-div">
             <a href="#" class="investment-link d-block position-relative">
@@ -395,7 +399,7 @@
 
           </div>
         </article>
-        <article class="investment-story-first-div w-4-md pad-10">
+        <article class="investment-story-first-div w-4-md w-3-lg pad-10">
 
           <div class="investment-story-second-div">
             <a href="#" class="investment-link d-block position-relative">
@@ -419,6 +423,34 @@
             <div class="story-byline">
               <p>SoftBank-backed travel platform Klook raises $200M amid COVID-19</p>
               <a href="#" class="story-byline-link">on TechCrunch</a>
+            </div>
+
+          </div>
+        </article>
+        <article class="investment-story-first-div w-4-md w-3-lg pad-10">
+
+          <div class="investment-story-second-div">
+            <a href="#" class="investment-link d-block position-relative">
+              <img src="./images/wolt.jpg" alt="image title" class="position-absolute investment-img">
+              <h4 class="story-investment-name">Wolt</h4>
+              <div class="story-investment-details">
+                <h5 class="investment-amount">$300M</h5>
+                <p class="investment-type">venture capital</p>
+              </div>
+            </a>
+            <div class="story-investment-card">
+              <a href="#" class="hover-black d-flex">
+                <i class="icon icon-tag-dark"></i>
+                <span class="ml-eight mb-12-md">Mobile, +5</span>
+              </a>
+              <a href="#" class="hover-black d-flex">
+                <i class="icon icon-briefcase-dark"></i>
+                <span class="ml-eight">DST Global, +9</span>
+              </a>
+            </div>
+            <div class="story-byline">
+              <p>Food delivery startup Wolt raises $530M after tripling revenues</p>
+              <a href="#" class="story-byline-link">on SiliconANGLE</a>
             </div>
 
           </div>
