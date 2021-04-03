@@ -22,6 +22,18 @@
   flex-direction: column;
 }
 
+.flex-direction-row-md {
+  flex-direction: row;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-c {
+  align-items: center;
+}
+
 .ml-six {
   margin-left: 6px;
 }
