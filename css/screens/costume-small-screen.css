@@ -22,12 +22,12 @@
   flex-direction: column;
 }
 
-.flex-direction-row-md {
-  flex-direction: row;
-}
-
 .jc-sb {
   justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
 }
 
 .ai-c {
