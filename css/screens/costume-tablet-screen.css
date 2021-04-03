@@ -38,6 +38,10 @@
   height: 100%;
 }
 
+.h-6-md {
+  height: 50%;
+}
+
 .w-12-md {
   width: 100%;
 }
@@ -57,4 +61,3 @@
 .mb-12-md {
   margin-bottom: 12px;
 }
-
