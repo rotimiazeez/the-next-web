@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Responsive Design: The New Web Clone
 
-# Hello World
-
-> A basic "Hello world" page that illustrate the use of tools and best practices for future Microverse projects.
+> This project uses mobile-first responsive design approach to clone [The new web](https://perma.cc/M5ZV-Q2D6) so that the website behaves differently depending on the size of the screen where the website is displayed.
 
 Additional description about the project and its features.
 
@@ -14,7 +12,12 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link - coming soon]()
+[Live Demo Link](https://harzeyzh-next-web.netlify.app/)
+
+## Screenshot
+
+![App Screenshot)](https://user-images.githubusercontent.com/44624138/113493462-5af7c980-94d7-11eb-9a42-43a8cddb4050.png)
+
 
 ## Getting Started
 
@@ -31,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone the project
 
 ```bash
-git clone https://github.com/rotimiazeez/hello-world.git
+git clone https://github.com/rotimiazeez/the-new-web.git
 
 ```
 
