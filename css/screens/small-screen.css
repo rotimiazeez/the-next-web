@@ -104,17 +104,14 @@
 }
 
 .latest-new-section,
-.latest-funding-section {
+.latest-funding-section,
+.section-popular {
   padding: 0 20px;
   margin-top: 200px;
 }
 
 .latest-news-div {
   margin-left: 12px;
-}
-
-.latest-news-article {
-  padding: 8px;
 }
 
 .latest-news-cover-image {
@@ -241,6 +238,130 @@
 
 .story-byline-link {
   color: #aaa;
+}
+
+.section-popular-sub {
+  padding: 14px;
+}
+
+.most-popular-img {
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  height: 332px;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.img-one {
+  background-image: url(../../images/game-stop.jpg);
+}
+
+.img-two {
+  background-image: url(../../images/google-map.webp);
+}
+
+.img-three {
+  background-image: url(../../images/mac-book.jpg);
+}
+
+.img-four {
+  background-image: url(../../images/vintage-robot-368x276.jpg);
+}
+
+.img-five {
+  background-image: url(../../images/Untitled-design-13-368x276.webp);
+}
+
+.img-six {
+  background-image: url(../../images/open-source-code-gq-368x276.webp);
+}
+
+.img-seven {
+  background-image: url(../../images/zoom-fundraising.webp);
+}
+
+.img-eight {
+  background-image: url(../../images/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
+}
+
+.section-popular-header {
+  font-size: 13px;
+  pointer-events: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.most-popular-header {
+  padding: 14px;
+  background-color: rgba(60, 60, 60, 0.35);
+}
+
+.section-latest-header {
+  height: 96px;
+  margin: 2px;
+  padding-right: 100px;
+}
+
+.section-latest-section {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.section-latest-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.5px;
+}
+
+.most-popular-latest-img {
+  background-image: url(../../images/jack-ma.jpg);
+  opacity: 1;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.section-headline {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.section-headline::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.deals-header-more {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
 }
 
 /* footer */

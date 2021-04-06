@@ -63,3 +63,20 @@
   border-left: 1px solid #f42;
   border-right: 1px solid #f42;
 }
+
+.latest-deals-cover {
+  height: 202px;
+}
+
+.percent-off {
+  background-color: #ff0;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  height: 80px;
+  right: -52px;
+  top: -22px;
+  width: 128px;
+}
