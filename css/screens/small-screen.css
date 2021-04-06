@@ -140,6 +140,10 @@
   line-height: 18px;
 }
 
+.jack-ma-link {
+  background-image: url(../../images/jack-ma.jpg);
+}
+
 .sitting-meme-link {
   background-image: url(../../images/header-image-bernie-sitting-meme-analysis.webp);
 }
@@ -324,7 +328,6 @@
 }
 
 .most-popular-latest-img {
-  background-image: url(../../images/jack-ma.jpg);
   opacity: 1;
   background-color: #000;
   background-position: 50%;
