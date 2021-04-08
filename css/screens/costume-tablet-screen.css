@@ -1,0 +1,63 @@
+.position-relative-md {
+  position: relative;
+}
+
+.position-absolute-md {
+  position: absolute;
+}
+
+.d-flex-md {
+  display: flex;
+}
+
+.d-block-md {
+  display: block;
+}
+
+.d-none-md {
+  display: none;
+}
+
+.flex-direction-column-md {
+  flex-direction: column;
+}
+
+.flex-direction-row-md {
+  flex-direction: row;
+}
+
+.jc-c-md {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.h-12-md {
+  height: 100%;
+}
+
+.h-6-md {
+  height: 50%;
+}
+
+.w-12-md {
+  width: 100%;
+}
+
+.w-8-md {
+  width: 66.66666666%;
+}
+
+.w-4-md {
+  width: 33.33333333%;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+.mb-12-md {
+  margin-bottom: 12px;
+}

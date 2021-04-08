@@ -1,0 +1,75 @@
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.ml-six {
+  margin-left: 6px;
+}
+
+.ml-four {
+  margin-left: 4px;
+}
+
+.ml-eight {
+  margin-left: 8px;
+}
+
+.hover-opacity:hover {
+  opacity: 0.5;
+}
+
+.hover-gif:hover {
+  background-image: url(../../images/home-1.gif);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-black:hover {
+  color: #000;
+}
+
+.hover-red:hover {
+  box-shadow: inset 0 -1px 0 rgb(255 68 34 / 25%);
+  color: #f42;
+}
+
+.hover-transparent:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}

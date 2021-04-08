@@ -1,0 +1,10 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./costume.css";
+@import "./icons.css";
+@import "./screens/small-screen.css";
+@import "./screens/costume-small-screen.css";
+@import "./screens/tablet-screen.css" screen and (min-width: 768px);
+@import "./screens/costume-tablet-screen.css" screen and (min-width: 768px);
+@import "./screens/desktop-screen.css" screen and (min-width: 1080px);
+@import "./screens/costume-desktop-screen.css" screen and (min-width: 1080px);
