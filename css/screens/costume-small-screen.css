@@ -1,0 +1,128 @@
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-fe {
+  justify-content: flex-end;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.mt-eigth {
+  margin-top: 8px;
+}
+
+.ml-six {
+  margin-left: 6px;
+}
+
+.ml-four {
+  margin-left: 4px;
+}
+
+.ml-eight {
+  margin-left: 8px;
+}
+
+.padding-8 {
+  padding: 8px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.hover-opacity:hover {
+  opacity: 0.5;
+}
+
+.hover-gif:hover {
+  background-image: url(../../images/home-1.gif);
+  background-position: 50%;
+  background-size: cover;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-black:hover {
+  color: #000;
+}
+
+.hover-red:hover {
+  box-shadow: inset 0 -1px 0 rgb(255 68 34 / 25%);
+  color: #f42;
+}
+
+.hover-transparent:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+  background: transparent;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-red {
+  color: #f42;
+}
+
+.color-ash {
+  color: #aaa;
+}
+
+.color-dark-5 {
+  color: #555;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}

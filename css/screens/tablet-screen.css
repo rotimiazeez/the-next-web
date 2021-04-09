@@ -1,0 +1,82 @@
+.main {
+  margin-top: 110px;
+}
+
+.nav {
+  height: 80px;
+}
+
+.tnw-nav {
+  background: #131313;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.tnw-nav-ul {
+  color: hsla(0, 0%, 100%, 0.6);
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.tnw-logo {
+  height: 80px;
+  padding: 32px 20px;
+}
+
+.tnw-header {
+  flex-grow: 1;
+}
+
+.active-color {
+  color: #fff;
+}
+
+.nav-sections-li-link {
+  text-transform: uppercase;
+  color: #aaa;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 8px;
+}
+
+.banner-text {
+  line-height: 30px;
+}
+
+.latest-news-cover-image {
+  height: 115px;
+}
+
+.latest-news-div {
+  margin: 8px 0 0;
+}
+
+.article-header {
+  margin-bottom: 5px;
+}
+
+.latest-funding-link-middle {
+  margin: 12px 8px 0;
+  padding: 0 8px;
+  border-left: 1px solid #f42;
+  border-right: 1px solid #f42;
+}
+
+.latest-deals-cover {
+  height: 202px;
+}
+
+.percent-off {
+  background-color: #ff0;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  height: 80px;
+  right: -52px;
+  top: -22px;
+  width: 128px;
+}

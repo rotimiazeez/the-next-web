@@ -1,0 +1,77 @@
+.icon {
+  display: block;
+  background: transparent url(../images/icons-sprite.svg) no-repeat;
+  background-size: 1296px 1296px;
+  background-position: 1296px 1296px;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-search-dark {
+  background-position: -848px -848px;
+}
+
+.hamburger-menu-first,
+.hamburger-menu-second,
+.hamburger-menu-last {
+  transition: 0.4s;
+  background-color: #f42;
+  height: 2px;
+  left: 14px;
+  margin-top: -1px;
+  top: 50%;
+  width: 20px;
+  position: absolute;
+}
+
+.hamburger-menu-first {
+  transform: translateY(-6px);
+}
+
+.hamburger-menu-last {
+  transform: translateY(6px);
+}
+
+.icon-facebook-light {
+  background-position: -272px -272px;
+}
+
+.icon-twitter-light {
+  background-position: -1024px -1024px;
+}
+
+.icon-youtube-light {
+  background-position: -1280px -1280px;
+}
+
+.icon-instagram-light {
+  background-position: -416px -416px;
+}
+
+.icon-pinterest-light {
+  background-position: -672px -672px;
+}
+
+.icon-rss-light {
+  background-position: -816px -816px;
+}
+
+.icon-mail-light {
+  background-position: -576px -576px;
+}
+
+.icon--clock--light {
+  background-position: -160px -160px;
+}
+
+.icon--share--light {
+  background-position: -912px -912px;
+}
+
+.icon-tag-dark {
+  background-position: -976px -976px;
+}
+
+.icon-briefcase-dark {
+  background-position: -48px -48px;
+}

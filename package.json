@@ -1,8 +1,8 @@
 {
-  "name": "hello-world",
+  "name": "the-new-web",
   "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "index.js",
+  "description": "This project uses mobile-first responsive design approach to clone The new web",
+  "main": "index.html",
   "dependencies": {},
   "devDependencies": {
     "hint": "^6.0.7",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rotimiazeez/hello-world.git"
+    "url": "git+https://github.com/rotimiazeez/the-new-web.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rotimiazeez/hello-world/issues"
+    "url": "https://github.com/rotimiazeez/the-new-web/issues"
   },
-  "homepage": "https://github.com/rotimiazeez/hello-world#readme"
+  "homepage": "https://github.com/rotimiazeez/the-new-web#readme"
 }

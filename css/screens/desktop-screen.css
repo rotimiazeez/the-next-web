@@ -1,0 +1,53 @@
+.cover-date {
+  top: 16px;
+  right: 16px;
+  color: #fff;
+  z-index: 3;
+}
+
+.main-wrapper {
+  height: 60vh;
+}
+
+.cover-gradient {
+  background: transparent url("../../images/cover-gradient.webp") no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: lighten;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.cover-logo {
+  color: #fff;
+  right: 24px;
+  z-index: 2;
+  background: transparent url("../../images/tnw.svg") no-repeat;
+  background-size: contain;
+  left: 24px;
+  max-width: 50%;
+  height: 100%;
+  max-height: 112px;
+  line-height: 1;
+  top: 24px;
+  pointer-events: none;
+  text-align: right;
+}
+
+.header-big {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+.header-small {
+  font-size: 28px;
+}
+
+.latest-new-section,
+.latest-funding-section {
+  margin: 200px auto 0;
+  max-width: 1192px;
+}
